@@ -1,3 +1,5 @@
+import { checkMemberAgeGroup, checkMemberStatus } from "./script.js";
+
 const MemberRenderer = {
   render(member) {
     const memberHTML = /*html*/ `
